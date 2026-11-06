@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 app.use(express.json());
 
-const stock = { 1: 10, 2: 5 };
+const stock = { 1: 12, 2: 20, 3: 8, 4: 25, 5: 10, 6: 15 };
 
 app.post("/api/inventory/reserve", (req, res) => {
   const items = req.body.items;
