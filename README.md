@@ -87,8 +87,6 @@ Base propre au service (data ownership) : tables `orders` et `order_items`
 (schéma fourni par l'enseignant). Les prix et noms sont figés dans la ligne
 de commande (snapshot).
 
-## Tests effectués
-Voir `docs/preuves-tests.md`.
 
 ## Limites
 L'isolation des utilisateurs repose sur le filtre `userId`. Une amélioration serait
